@@ -1,0 +1,21 @@
+.head {
+    width: 80%;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 30px;
+}
+.link {
+    text-decoration: none;
+    list-style-type: none;
+    color: #666;
+    font-size: 15px;
+
+}
+li {
+    list-style-type: none;
+    color: #666;
+    
+}

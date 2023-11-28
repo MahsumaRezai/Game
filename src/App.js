@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import { Fragment } from 'react';
 import Head from './Component/Head/Head';
 import Home from './Component/Pages/Home';
+import Browse from './Component/Pages/Browse';
 
 const App = (props) => {
 
@@ -12,6 +13,9 @@ const App = (props) => {
             <Route path="">
                 <Home />
 
+            </Route>
+            <Route path='/Browse'>
+                <Browse />
             </Route>
 
 
