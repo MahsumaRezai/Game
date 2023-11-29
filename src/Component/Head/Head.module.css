@@ -1,6 +1,6 @@
 .head {
-    width: 80%;
-    padding: 50px 20px;
+    width: 100%;
+    padding: 50px 30px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;

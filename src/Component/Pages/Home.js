@@ -1,8 +1,14 @@
 import { Fragment } from 'react';
+import Card from './Card';
+import classes from './Home.module.css';
 const Home = (props) => {
     return (
         <Fragment>
-            <h1>hello</h1>
+            <Card>
+                <div className={classes.home}>
+
+                </div>
+            </Card>
 
         </Fragment>
     )
