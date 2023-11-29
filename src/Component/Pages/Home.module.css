@@ -1,9 +1,9 @@
 .home {
     background-image: url(../images/banner-bg.jpg);
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     min-height: 380px;
     border-radius: 23px;
     padding: 20px 10px;
-    width: 75%;
+    width: 80%;
 }
