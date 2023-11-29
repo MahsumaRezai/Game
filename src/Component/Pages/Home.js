@@ -3,6 +3,7 @@ import Card from './Card';
 import classes from './Home.module.css';
 import Title from './Title';
 import Button from './Button';
+import Game from './Game';
 const Home = (props) => {
     return (
         <Fragment>
@@ -10,9 +11,9 @@ const Home = (props) => {
                 <div className={classes.home}>
                     <Title />
                     <Button />
-
-
                 </div>
+                <Game />
+
             </Card>
 
         </Fragment>
