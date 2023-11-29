@@ -4,6 +4,7 @@ import classes from './Home.module.css';
 import Title from './Title';
 import Button from './Button';
 import Game from './Game';
+import Libery from './Libery';
 const Home = (props) => {
     return (
         <Fragment>
@@ -13,6 +14,7 @@ const Home = (props) => {
                     <Button />
                 </div>
                 <Game />
+                <Libery/>
 
             </Card>
 
