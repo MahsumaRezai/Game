@@ -4,5 +4,50 @@
     padding: 20px 10px;
     margin-top: 20px;
     border-radius: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    
+    
+    
 
+}
+.kind {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap
+}
+.title {
+    text-align: center;
+    color: #ec6090;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding: 20px 0px ;
+    text-decoration: underline white;
+}
+.cart {
+    background: #27292a;
+    border-radius: 23px;
+    padding:50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px
+}
+.img {
+    border-radius: 23px;
+    filter: blur(0px)
+}
+.text {
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.img:hover {
+    filter: blur(8px)
 }

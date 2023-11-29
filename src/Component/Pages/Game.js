@@ -5,6 +5,7 @@ const Game = (poprs) => {
     return (
         <Fragment>
             <div className={classes.game}>
+                <h1 className={classes.title}>Most Popular Right Now</h1>
                 <KindOfGame />
 
 
