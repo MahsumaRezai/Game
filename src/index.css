@@ -8,6 +8,12 @@ body {
   height: max-content;
   font-family: sans-serif;
 }
-
+.text {
+  color: #ec6090;
+  font-size: 35px;
+  font-family: sans-serif;
+  padding: 10px 0px;
+  text-decoration: underline white;
+}
 
 

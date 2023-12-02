@@ -5,6 +5,7 @@ import Title from './Title';
 import Button from './Button';
 import Game from './Game';
 import Libery from './Libery';
+import Titlelite from './Titlelite';
 const Home = (props) => {
     return (
         <Fragment>
@@ -14,7 +15,12 @@ const Home = (props) => {
                     <Button />
                 </div>
                 <Game />
-                <Libery/>
+                <Titlelite />
+                <Libery />
+                <Libery />
+                <Libery />
+
+
 
             </Card>
 

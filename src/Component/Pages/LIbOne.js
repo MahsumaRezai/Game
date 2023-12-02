@@ -5,8 +5,9 @@ const LibOne = (poprs) => {
     return (
         <Fragment>
             <div className={classes.lib}>
+
                 <div>
-                    <img src={img1} alt="" />
+                    <img src={img1} alt="" className={classes.img} />
                 </div>
                 <div className={classes.text}>
                     <p>Dota 2</p>
@@ -24,8 +25,10 @@ const LibOne = (poprs) => {
                     <p> Currently</p>
                     <p> Downloaded</p>
                 </div>
-                <div className={classes.btn}>
-                    <button>Download</button>
+                <div >
+                    <button className={classes.btn}><span className={classes.btntext}>
+                        Download
+                        </span></button>
                 </div>
 
 
