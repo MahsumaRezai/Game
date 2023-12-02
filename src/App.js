@@ -10,7 +10,7 @@ const App = (props) => {
     return (
         <Fragment>
             <Head />
-            <Route path="">
+            <Route path="/" exact>
                 <Home />
 
             </Route>
