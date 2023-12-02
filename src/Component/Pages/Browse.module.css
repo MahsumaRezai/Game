@@ -1,0 +1,50 @@
+.borwse{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+
+}
+@media screen and (max-width:1024px){
+    .borwse {
+        flex-direction: column;
+    }
+}
+.warrp {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    color: white;
+    font-size: 14px;
+
+}
+.right {
+    background: #1f2122;
+    width: 60%;
+    border-radius: 23px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.left {
+    background: #1f2122;
+    border-radius: 23px;
+    width: 20% ;
+    padding: 20px 30px
+}
+.title {
+    color: #ec6090;
+    padding: 15px 0px;
+    text-decoration: underline white;
+    font-family: sans-serif;
+    font-size: 35px
+}
+img {
+    border-radius: 23px;
+}
