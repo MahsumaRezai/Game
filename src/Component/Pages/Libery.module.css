@@ -8,3 +8,22 @@
     flex-direction: column;
     gap: 20px
 }
+.lib {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 20px ;
+    
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 14px;
+    padding: 0px 10px 
+}
