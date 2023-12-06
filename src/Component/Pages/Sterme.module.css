@@ -26,5 +26,9 @@
 
 }
 .head {
-    
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding: 10px 0px
+
 }
