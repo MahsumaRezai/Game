@@ -10,7 +10,7 @@ const Right = (props) => {
             <div className={classes.right}>
                 <h2 className={classes.title}>Featured Games</h2>
                 <div className={classes.warrp}>
-                    <div>
+                    <div className={classes.text}>
                         <img src={img1} alt="" />
                         <p>
                             Fortnite
@@ -18,7 +18,7 @@ const Right = (props) => {
                         <p> Sandbox</p>
 
                     </div>
-                    <div>
+                    <div className={classes.text}>
                         <img src={img2} alt="" />
                         <p>
                             Fortnite
@@ -26,7 +26,7 @@ const Right = (props) => {
                         <p> Sandbox</p>
 
                     </div>
-                    <div>
+                    <div className={classes.text}>
                         <img src={img3} alt="" />
                         <p>
                             Fortnite

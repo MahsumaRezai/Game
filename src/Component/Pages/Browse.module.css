@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
-    width: 90%;
+    width: 100%;
     margin: auto;
     justify-content: center;
 
@@ -18,7 +18,15 @@
     gap:20px;
     color: white;
     font-size: 14px;
+    align-items: center
 
+}
+.text {
+    display: flex;
+    justify-content: flex-start;
+    gap:7px;
+    align-items: flex-start ;
+    flex-direction: column
 }
 .right {
     background: #1f2122;
@@ -32,10 +40,22 @@
 
 
 }
+@media screen and (max-width:1024px) {
+    .right {
+        flex-direction: column;
+        width: 100%
+    }
+}
+@media screen and (max-width:1024px) {
+    .warrp {
+        flex-direction: column;
+        padding: 50px
+    }
+}
 .left {
     background: #1f2122;
     border-radius: 23px;
-    width: 20% ;
+    width: 30% ;
     padding: 20px 30px
 }
 .title {
@@ -47,4 +67,39 @@
 }
 img {
     border-radius: 23px;
+    box-shadow: 5px 5px 5px 5px #27292a
+}
+.top {
+    text-align: center;
+    color: white;
+    text-decoration: underline #ec6090 ;
+    font-size: 35px;
+    font-weight: bold
+}
+.dowloned {
+    
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    color: #ec6090;
+    background-color: #1f2122;
+    border-radius: 25px;
+    font-size: 10px;
+
+}
+.toplevel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    padding: 20px;
+    border-bottom: 5px solid #27292a;
+
+}
+.para {
+    color: white;
+    font-size: 15px;
+    text-align: center
+
 }
