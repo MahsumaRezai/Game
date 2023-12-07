@@ -8,7 +8,6 @@ const StermeCard = (props) => {
                 {props.children}
                 <p className={classes.text}>{props.text}</p>
 
-
             </div>
 
         </Fragment>

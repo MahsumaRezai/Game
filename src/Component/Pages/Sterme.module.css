@@ -32,3 +32,17 @@
     padding: 10px 0px
 
 }
+.content {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center
+}
+.title {
+    color:white;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding: 20px 0px;
+    text-decoration: underline  #ec6090
+}
