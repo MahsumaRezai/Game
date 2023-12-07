@@ -4,6 +4,7 @@ import Card from './Card';
 import Right from './Right';
 import Left from './Left';
 import Sterme from './Sterme';
+import Move from './Move';
 const Browse = (props) => {
     return (
         <Fragment>
@@ -13,6 +14,7 @@ const Browse = (props) => {
                     <Left />
                 </div>
                 <Sterme />
+                <Move />
 
             </Card>
 

@@ -1,0 +1,15 @@
+.move {
+    background: #1f2122;
+    width: 90%;
+    border-radius: 23px;
+
+}
+.title {
+    color:white;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding: 20px 0px;
+    text-decoration: underline  #ec6090;
+    text-align: center;
+    
+}
