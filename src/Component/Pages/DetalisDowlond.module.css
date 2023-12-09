@@ -1,0 +1,24 @@
+.DetalisDowlond {
+    background: #1f2122;
+    border-radius: 25px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.text {
+    color: #666;
+    font-size: 14px;
+    padding: 20px ;
+    line-height: 1.625;
+}
