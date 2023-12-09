@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import classes from './DetalisDowlond.module.css';
+import ButtonData from './ButtonData';
 
 const DetalisData = (poprs) => {
     return (
@@ -10,6 +11,7 @@ const DetalisData = (poprs) => {
                     cover page, and text box designs that complement each other. For example, you can add a matching cover page, header,
                     and sidebar. Click Insert and then choose the elements you want from the different galleries.
             </p>
+                <ButtonData />
 
             </div>
 
