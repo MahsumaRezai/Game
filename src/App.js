@@ -5,6 +5,7 @@ import Head from './Component/Head/Head';
 import Home from './Component/Pages/Home';
 import Browse from './Component/Pages/Browse';
 import Detalis from './Component/Pages/Detalis';
+import StermSection from './Component/Pages/StermeSection';
 
 const App = (props) => {
 
@@ -21,6 +22,9 @@ const App = (props) => {
 
             <Route path='/Details'>
                 <Detalis />
+            </Route>
+            <Route path='/Stre'>
+                <StermSection />
             </Route>
 
 
