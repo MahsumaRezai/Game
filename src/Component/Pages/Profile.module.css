@@ -3,9 +3,28 @@
     border-radius: 25px;
     width: 80%;
     margin: auto;
+    padding: 50px 0px;
+}
+.wapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    padding-left: 20px
+}
+.data {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 50px 0px;
+    gap: 30px
+}
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.625
 }
