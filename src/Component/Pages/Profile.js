@@ -8,6 +8,7 @@ const Profile = (props) => {
         <Fragment>
             <Card>
                 <ProfilePicture />
+                
 
             </Card>
 
