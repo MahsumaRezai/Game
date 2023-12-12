@@ -12,12 +12,12 @@ const DataProfile = (props) => {
 
                     </div>
                     <div className={classes.link}>
-                    <li>Offline</li>
+                    <li className={classes.links}>OffLine</li>
                     <h4>Alan Smithee</h4>
                     <p>You Haven't Gone Live yet.<br></br> Go Live By Touching The Button Below.
                     
 </p>
-                    <button>Start Live Stream</button>
+                    <button className={classes.btn}>Start Live Stream</button>
                     </div>
                 </div>
 

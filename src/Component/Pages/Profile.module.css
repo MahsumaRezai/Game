@@ -25,6 +25,27 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 10px;
-    line-height: 1.625
+    gap: 20px;
+    line-height: 1.625;
+    color: white
+}
+.links {
+    color: white;
+    background: #ec6090;
+    padding: 8px 20px;
+    border-radius: 23px
+}
+.link p {
+    font-size: 13px;
+    color: #666;
+}
+.link h4 {
+    font-size: 20px
+}
+.btn {
+    background: #1f2122;
+    border-radius: 30px;
+    border:1px solid #ec6090;
+    padding: 15px 50px;
+    color: #ec6090
 }
