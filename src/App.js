@@ -7,20 +7,16 @@ import Browse from './Component/Pages/Browse';
 import Detalis from './Component/Pages/Detalis';
 import StermSection from './Component/Pages/StermeSection';
 import Profile from './Component/Pages/Profile';
-
 const App = (props) => {
-
     return (
         <Fragment>
             <Head />
             <Route path="/" exact>
                 <Home />
-
             </Route>
             <Route path='/Browse'>
                 <Browse />
             </Route>
-
             <Route path='/Details'>
                 <Detalis />
             </Route>
