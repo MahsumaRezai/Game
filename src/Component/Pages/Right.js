@@ -25,6 +25,7 @@ const Right = (props) => {
                         </p>
                         <p> Sandbox</p>
 
+
                     </div>
                     <div className={classes.text}>
                         <img src={img3} alt="" />
@@ -35,6 +36,7 @@ const Right = (props) => {
 
                     </div>
                 </div>
+
             </div>
 
 
