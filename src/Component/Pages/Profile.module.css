@@ -10,6 +10,13 @@
     flex-direction: row;
     gap: 40px;
 }
+@media screen and (max-width:1400px) {
+    .base {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+}
 .wapper {
     display: flex;
     flex-direction: row;
@@ -17,12 +24,29 @@
     align-items: flex-start;
     gap: 30px;
 }
+@media screen and (max-width:1024px) {
+    .wapper{
+        flex-direction: column
+    }
+}
 .data {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 30px
+}
+@media screen and (max-width:1024px) {
+    .data{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+}
+@media screen and (max-width:1024px) {
+    .image{
+        width:280px
+    }
 }
 .link {
     display: flex;

@@ -8,7 +8,7 @@ const DataProfile = (props) => {
             <div className={classes.wapper}>
                 <div className={classes.data}>
                     <div>
-                    <img src={img1} alt="" />
+                    <img src={img1} alt="" className={classes.image}  />
 
                     </div>
                     <div className={classes.link}>
